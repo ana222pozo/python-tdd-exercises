@@ -252,7 +252,6 @@ def test_get_reverse_complement():
     assert get_reverse_complement('CCGGAAGAGCTTACTTAG') == 'CTAAGTAAGCTCTTCCGG'
     assert get_reverse_complement('ccggaagagcttacttag') == 'CTAAGTAAGCTCTTCCGG'
 
-#### PASSED ####
 
 # ------------------------------------------------------------------------------
 
