@@ -260,7 +260,8 @@ def remove_substring(substring, string):
     """
     Returns string with all occurrences of substring removed.
     """
-    return None
+    
+    return string.replace(substring, '')
 
 
 def test_remove_substring():
@@ -269,7 +270,7 @@ def test_remove_substring():
     assert remove_substring('TAG', 'CCGGAAGAGCTTACTTAG') == 'CCGGAAGAGCTTACT'
     assert remove_substring('GAA', 'GAAGAAGAA') == ''
 
-
+#### PASSED ####
 # ------------------------------------------------------------------------------
 
 def get_position_indices(triplet, dna):
